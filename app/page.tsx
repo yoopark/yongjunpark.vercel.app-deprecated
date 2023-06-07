@@ -70,6 +70,13 @@ export default function Home() {
                 facilis ipsa odio nemo vel maxime corporis nam praesentium
                 ducimus, deleniti temporibus sequi consequatur.
               </p>
+              <ul className={styles.project__stack}>
+                <li>React</li>
+                <li>GraphQL</li>
+                <li>TypeScript</li>
+                <li>Styled Component</li>
+                <li>Docker Compose</li>
+              </ul>
             </div>
           </div>
           <div className={styles.project}>
@@ -83,12 +90,22 @@ export default function Home() {
                 영단어를 입력하면 문제를 생성하여 Word 학습지를 제작해주는
                 서비스
               </p>
+              <p>스타트업 MVP 요청을 받아 간단히 제작</p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
                 aliquam debitis nostrum tempora quis accusamus, expedita,
                 facilis ipsa odio nemo vel maxime corporis nam praesentium
                 ducimus, deleniti temporibus sequi consequatur.
               </p>
+              <ul className={styles.project__stack}>
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>Styled Component</li>
+                <li>FastAPI</li>
+                <li>Python-docx</li>
+                <li>ChatGPT</li>
+                <li>Docker Compose</li>
+              </ul>
             </div>
           </div>
           <div className={styles.project}>
@@ -107,6 +124,14 @@ export default function Home() {
                 facilis ipsa odio nemo vel maxime corporis nam praesentium
                 ducimus, deleniti temporibus sequi consequatur.
               </p>
+              <ul className={styles.project__stack}>
+                <li>Nextjs</li>
+                <li>Socket.io</li>
+                <li>TypeScript</li>
+                <li>Chakra UI</li>
+                <li>Zustand</li>
+                <li>Docker Compose</li>
+              </ul>
             </div>
           </div>
           <div className={styles.project}>
@@ -128,6 +153,12 @@ export default function Home() {
                 facilis ipsa odio nemo vel maxime corporis nam praesentium
                 ducimus, deleniti temporibus sequi consequatur.
               </p>
+              <ul className={styles.project__stack}>
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>TailwindCSS</li>
+                <li>Docker Compose</li>
+              </ul>
             </div>
           </div>
         </section>

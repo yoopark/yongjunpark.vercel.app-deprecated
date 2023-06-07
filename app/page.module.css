@@ -109,6 +109,20 @@
   color: rgb(var(--accent-rgb));
 }
 
+.project__stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project__stack li {
+  font-size: 0.85rem;
+  color: rgb(var(--accent-rgb));
+  border: 1px solid rgb(var(--accent-rgb));
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
 #educations {
   display: flex;
   flex-direction: column;
@@ -142,6 +156,6 @@
   color: rgb(var(--accent-rgb));
 }
 
-.project__description {
+.education__description {
   color: rgb(var(--accent-rgb));
 }
