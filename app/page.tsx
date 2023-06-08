@@ -1,3 +1,4 @@
+import { GithubLink } from './components/GithubLink';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -65,6 +66,7 @@ export default function Home() {
                 <div className={styles.project__title}>
                   <h3>42Stat</h3>
                   <p>4인 팀 · 프론트엔드 개발</p>
+                  <GithubLink to="https://github.com/42Statistics/42Stat-Frontend" />
                 </div>
                 <p className={styles.project__description}>
                   42서울 교육생의 통계를 보여주는 대시보드형 웹서비스
@@ -90,6 +92,7 @@ export default function Home() {
                 <div className={styles.project__title}>
                   <h3>Cerebri Class</h3>
                   <p>1인 개발</p>
+                  <GithubLink to="https://github.com/storyboard-lab/cerebri-class" />
                 </div>
                 <p className={styles.project__description}>
                   영단어를 입력하면 문제를 생성하여 Word 학습지를 제작해주는
@@ -119,6 +122,7 @@ export default function Home() {
                 <div className={styles.project__title}>
                   <h3>LastPong</h3>
                   <p>4인 팀 · 프론트엔드 개발</p>
+                  <GithubLink to="https://github.com/lev-Zero/lastpong" />
                 </div>
                 <p className={styles.project__description}>
                   Socket.io를 이용하여 게임, 채팅, DM을 구현한 SPA 웹서비스
@@ -145,6 +149,7 @@ export default function Home() {
                 <div className={styles.project__title}>
                   <h3>밀리루틴</h3>
                   <p>5인 팀 · 팀장</p>
+                  <GithubLink to="https://github.com/osamhack2022-v2/WEB_AI_MILIROUTINE_MILIROUTINE" />
                 </div>
                 <p className={styles.project__description}>
                   군인의 특성을 고려한 루틴 참여 및 추천 웹서비스
@@ -210,7 +215,7 @@ export default function Home() {
         </section>
         <footer className={styles.footer}>
           <p>감사합니다.</p>
-          <p>© 2023 yongjun park.</p>
+          <p>© 2023. yongjun park</p>
           <p>Next.js 13과 CSS Module로 작성하여 Vercel로 배포함. </p>
         </footer>
       </main>
