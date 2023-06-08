@@ -208,6 +208,11 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <footer className={styles.footer}>
+          <p>감사합니다.</p>
+          <p>© 2023 yongjun park.</p>
+          <p>Next.js 13과 CSS Module로 작성하여 Vercel로 배포함. </p>
+        </footer>
       </main>
     </div>
   );

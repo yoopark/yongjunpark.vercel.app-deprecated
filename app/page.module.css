@@ -197,3 +197,12 @@
   padding: 0.2rem 0.5rem;
   border-radius: 0.25rem;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.footer p {
+  font-size: 0.85rem;
+}
