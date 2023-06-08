@@ -68,14 +68,8 @@ export default function Home() {
                   <p>4인 팀 · 프론트엔드 개발</p>
                   <GithubLink to="https://github.com/42Statistics/42Stat-Frontend" />
                 </div>
-                <p className={styles.project__description}>
+                <p className={styles.project__highlight}>
                   42서울 교육생의 통계를 보여주는 대시보드형 웹서비스
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-                  aliquam debitis nostrum tempora quis accusamus, expedita,
-                  facilis ipsa odio nemo vel maxime corporis nam praesentium
-                  ducimus, deleniti temporibus sequi consequatur.
                 </p>
                 <ul className={styles.project__stack}>
                   <li>React</li>
@@ -94,16 +88,12 @@ export default function Home() {
                   <p>1인 개발</p>
                   <GithubLink to="https://github.com/storyboard-lab/cerebri-class" />
                 </div>
-                <p className={styles.project__description}>
+                <p className={styles.project__highlight}>
                   영단어를 입력하면 문제를 생성하여 Word 학습지를 제작해주는
                   서비스
                 </p>
-                <p>스타트업 MVP 요청을 받아 간단히 제작</p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-                  aliquam debitis nostrum tempora quis accusamus, expedita,
-                  facilis ipsa odio nemo vel maxime corporis nam praesentium
-                  ducimus, deleniti temporibus sequi consequatur.
+                <p className={styles.project__highlight}>
+                  스타트업으로부터 MVP 제작 요청을 받아 간단히 개발
                 </p>
                 <ul className={styles.project__stack}>
                   <li>React</li>
@@ -124,14 +114,8 @@ export default function Home() {
                   <p>4인 팀 · 프론트엔드 개발</p>
                   <GithubLink to="https://github.com/lev-Zero/lastpong" />
                 </div>
-                <p className={styles.project__description}>
+                <p className={styles.project__highlight}>
                   Socket.io를 이용하여 게임, 채팅, DM을 구현한 SPA 웹서비스
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-                  aliquam debitis nostrum tempora quis accusamus, expedita,
-                  facilis ipsa odio nemo vel maxime corporis nam praesentium
-                  ducimus, deleniti temporibus sequi consequatur.
                 </p>
                 <ul className={styles.project__stack}>
                   <li>Nextjs</li>
@@ -151,17 +135,11 @@ export default function Home() {
                   <p>5인 팀 · 팀장</p>
                   <GithubLink to="https://github.com/osamhack2022-v2/WEB_AI_MILIROUTINE_MILIROUTINE" />
                 </div>
-                <p className={styles.project__description}>
+                <p className={styles.project__highlight}>
                   군인의 특성을 고려한 루틴 참여 및 추천 웹서비스
                 </p>
-                <p className={styles.project__description}>
+                <p className={styles.project__highlight}>
                   2022 OSAM 군장병 해커톤 공군참모총장상 수상
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-                  aliquam debitis nostrum tempora quis accusamus, expedita,
-                  facilis ipsa odio nemo vel maxime corporis nam praesentium
-                  ducimus, deleniti temporibus sequi consequatur.
                 </p>
                 <ul className={styles.project__stack}>
                   <li>React</li>
@@ -183,14 +161,8 @@ export default function Home() {
                   <h3>고려대학교</h3>
                   <p>3학년 재학 중</p>
                 </div>
-                <p className={styles.education__description}>정치외교학 전공</p>
-                <p className={styles.education__description}>통계학 복수전공</p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-                  aliquam debitis nostrum tempora quis accusamus, expedita,
-                  facilis ipsa odio nemo vel maxime corporis nam praesentium
-                  ducimus, deleniti temporibus sequi consequatur.
-                </p>
+                <p className={styles.education__highlight}>정치외교학 전공</p>
+                <p className={styles.education__highlight}>통계학 복수전공</p>
               </div>
             </div>
             <div className={styles.education}>
@@ -200,15 +172,16 @@ export default function Home() {
                   <h3>42서울</h3>
                   <p>심화과정 진행 중</p>
                 </div>
-                <p className={styles.education__description}>
+                <p className={styles.education__highlight}>
                   공통과정 수료 (2023.01)
                 </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-                  aliquam debitis nostrum tempora quis accusamus, expedita,
-                  facilis ipsa odio nemo vel maxime corporis nam praesentium
-                  ducimus, deleniti temporibus sequi consequatur.
-                </p>
+                <a
+                  href="https://yoopark.github.io/42-interview"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  제주도에서 온 비전공 청년의 개발자 도전기
+                </a>
               </div>
             </div>
           </div>

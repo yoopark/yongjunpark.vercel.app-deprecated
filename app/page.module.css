@@ -93,6 +93,11 @@
   }
 }
 
+.main a {
+  color: rgb(var(--accent-rgb));
+  text-decoration: underline;
+}
+
 #about,
 #projects,
 #educations {
@@ -147,27 +152,21 @@
   margin-top: 0.5rem;
 
   @media (min-width: 768px) {
-    width: 20rem;
+    width: 3rem;
   }
 }
 
 .project__title,
 .education__title {
   margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
 
   @media (min-width: 768px) {
-    display: flex;
+    flex-direction: row;
     align-items: baseline;
     gap: 1rem;
-    margin-top: 0;
-  }
-}
-
-.project__title p,
-.education__title p {
-  margin-top: 0.2rem;
-
-  @media (min-width: 768px) {
     margin-top: 0;
   }
 }
@@ -179,8 +178,8 @@
   color: rgb(var(--accent-rgb));
 }
 
-.project__description,
-.education__description {
+.project__highlight,
+.education__highlight {
   color: rgb(var(--accent-rgb));
 }
 
