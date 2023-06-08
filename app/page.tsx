@@ -1,4 +1,5 @@
 import { GithubLink } from './components/GithubLink';
+import { Typed } from './components/Typed';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -10,6 +11,18 @@ export default function Home() {
             <a href="/">박용준</a>
           </h1>
           <h2>프론트엔드 개발자</h2>
+          <div>
+            <Typed
+              strings={[
+                '정보사회에 태어난 것에 감사하는',
+                '창의적인 관점에 특히 반응하는',
+                '깔끔한 걸 좋아하는',
+                '같은 유형에 두번 당하지 않는',
+                '대부분의 시간을 몰입해 있는',
+              ]}
+            />
+            <span>&nbsp;개발자</span>
+          </div>
           <div className={styles.contact}>
             <p>yopark.dev@gmail.com</p>
             <p>010-2533-6357</p>
@@ -141,6 +154,13 @@ export default function Home() {
                 <p className={styles.project__highlight}>
                   2022 OSAM 군장병 해커톤 공군참모총장상 수상
                 </p>
+                <a
+                  href="https://yoopark.github.io/miliroutine-retrospect"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  2022 OSAM 군장병 해커톤 후기
+                </a>
                 <ul className={styles.project__stack}>
                   <li>React</li>
                   <li>TypeScript</li>
