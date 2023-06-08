@@ -15,7 +15,7 @@ export default function Home() {
             <Typed
               strings={[
                 '정보사회에 태어난 것에 감사하는',
-                '창의적인 관점에 특히 반응하는',
+                '창의적인 생각에 특히 반응하는',
                 '깔끔한 걸 좋아하는',
                 '같은 유형에 두번 당하지 않는',
                 '대부분의 시간을 몰입해 있는',
@@ -57,16 +57,17 @@ export default function Home() {
           <h2>소개</h2>
           <div className={styles.about__container}>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-              aliquam debitis nostrum tempora quis accusamus, expedita, facilis
-              ipsa odio nemo vel maxime corporis nam praesentium ducimus,
-              deleniti temporibus sequi consequatur.
+              외국어고등학교를 다니면서도 『C언어의 정석』을 취미로 읽을 정도로
+              항상 컴퓨터를 다루는 걸 좋아했지만, 개발자를 직업으로 삼을 수
+              있다는 생각을 대학교 와서야 했습니다. 그저 놀 생각으로 간
+              42서울에서 리눅스 명령어를 입력하던 순간 평생 좋아할 수 있는 일을
+              찾았다는 안도감이 들었습니다.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-              aliquam debitis nostrum tempora quis accusamus, expedita, facilis
-              ipsa odio nemo vel maxime corporis nam praesentium ducimus,
-              deleniti temporibus sequi consequatur.
+              대부분의 시간을 코딩으로 보내지만, 심심할 땐 종종 피아노를 칩니다.
+              철학이나 국제정치, 미래학을 주제로 한 책을 즐겨 읽습니다.
+              정보사회라서 벌어지는 일들을 충실히 이해하고, 새롭게 등장하는
+              기술을 즐기며 살아가고 싶습니다.
             </p>
           </div>
         </section>
