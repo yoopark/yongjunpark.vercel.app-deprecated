@@ -1,0 +1,68 @@
+{
+  "Index": {
+    "name": "Yongjun Park",
+    "job": "Frontend Developer",
+    "phone": "+82 10-2533-6357",
+    "modifiers": {
+      "information-society": "thankful for being born into the Information Society",
+      "creative-thinking": "especially enthusiastic to creative thinking",
+      "neat-things": "who likes neat things",
+      "dont-fall": "who doesn't fall for the same type twice",
+      "immerse": "who is immersed most of the time"
+    },
+    "About": {
+      "title": "About",
+      "p1": "Even when I went to a foreign language high school, I always liked to deal with computers to the extent that I read 『The Essence of Language C』 as a hobby, but I had to come to college to think that I could make a developer a job. The moment I entered the Linux command in 42 Seoul, where I just went to play, I felt relieved that I found something I could like for the rest of my life.",
+      "p2": "I spend most of my time coding, but I often play the piano when I'm bored. I enjoy reading books on philosophy, international politics, and futurology. Since it is an information society, I want to faithfully understand what is happening and enjoy the new technology."
+    },
+    "Projects": {
+      "title": "Projects",
+      "42Stat": {
+        "title": "42Stat",
+        "description": "Dashboard-type web service that shows statistics of 42 Seoul trainees",
+        "team-composition": "4 ppl",
+        "role": "Frontend"
+      },
+      "CerebriClass": {
+        "title": "Cerebri Class",
+        "description": "A service that creates a Word study paper by generating a problem when you enter an English word",
+        "team-composition": "Solo",
+        "startup-mvp": "Developed simply by receiving an MVP production request from a startup"
+      },
+      "LastPong": {
+        "title": "LastPong",
+        "description": "SPA web service with Pong game, chat, and DM using socket.io",
+        "team-composition": "4 ppl",
+        "role": "Fronend"
+      },
+      "Miliroutine": {
+        "title": "Miliroutine",
+        "description": "Routine participation and recommendation web services considering the characteristics of soldiers",
+        "team-composition": "5 ppl",
+        "role": "Team Leader",
+        "awards-winner": "2022 OSAM Military Hackathon Air Force Chief of Staff Award Winner",
+        "article-review": "2022 OSAM Military Hackathon Review"
+      }
+    },
+    "Educations": {
+      "title": "Educations",
+      "KoreaUniv": {
+        "title": "Korea University",
+        "status": "Junior",
+        "major": "Major in Political Science",
+        "double-major": "Double Major in Statistics"
+      },
+      "42Seoul": {
+        "title": "42 Seoul",
+        "status": "Advanced course",
+        "common-course": "Completion of the common course (2023.01)",
+        "article-non-major": "Dream of becoming a developer, not a CS major"
+      }
+    },
+    "present": "Present",
+    "Footer": {
+      "thank-you": "Thank you.",
+      "built-with": "Built with Next.js 13 and CSS Modules, deployed with Vercel."
+    }
+  }
+}

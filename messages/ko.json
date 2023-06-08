@@ -1,0 +1,68 @@
+{
+  "Index": {
+    "name": "박용준",
+    "job": "프론트엔드 개발자",
+    "phone": "010-2533-6357",
+    "modifiers": {
+      "information-society": "정보사회에 태어난 것에 감사하는",
+      "creative-thinking": "창의적인 생각에 특히 반응하는",
+      "neat-things": "깔끔한 걸 좋아하는",
+      "dont-fall": "같은 유형에 두번 당하지 않는",
+      "immerse": "대부분의 시간을 몰입해 있는"
+    },
+    "About": {
+      "title": "소개",
+      "p1": "외국어고등학교를 다니면서도 『C언어의 정석』을 취미로 읽을 정도로 항상 컴퓨터를 다루는 걸 좋아했지만, 개발자를 직업으로 삼을 수 있다는 생각을 대학교 와서야 했습니다. 그저 놀 생각으로 간 42서울에서 리눅스 명령어를 입력하던 순간 평생 좋아할 수 있는 일을 찾았다는 안도감이 들었습니다.",
+      "p2": "대부분의 시간을 코딩으로 보내지만, 심심할 땐 종종 피아노를 칩니다. 철학이나 국제정치, 미래학을 주제로 한 책을 즐겨 읽습니다. 정보사회라서 벌어지는 일들을 충실히 이해하고, 새롭게 등장하는 기술을 즐기며 살아가고 싶습니다."
+    },
+    "Projects": {
+      "title": "프로젝트",
+      "42Stat": {
+        "title": "42Stat",
+        "description": "42서울 교육생의 통계를 보여주는 대시보드형 웹서비스",
+        "team-composition": "4인 팀",
+        "role": "프론트엔드 개발"
+      },
+      "CerebriClass": {
+        "title": "Cerebri Class",
+        "description": "영단어를 입력하면 문제를 생성하여 Word 학습지를 제작해주는 서비스",
+        "team-composition": "1인 개발",
+        "startup-mvp": "스타트업으로부터 MVP 제작 의뢰를 받아 간단히 개발"
+      },
+      "LastPong": {
+        "title": "LastPong",
+        "description": "Socket.io를 이용하여 게임, 채팅, DM을 구현한 SPA 웹서비스",
+        "team-composition": "4인 팀",
+        "role": "프론트엔드 개발"
+      },
+      "Miliroutine": {
+        "title": "밀리루틴",
+        "description": "군인의 특성을 고려한 루틴 참여 및 추천 웹서비스",
+        "team-composition": "5인 팀",
+        "role": "팀장",
+        "awards-winner": "2022 OSAM 군장병 해커톤 공군참모총장상 수상",
+        "article-review": "2022 OSAM 군장병 해커톤 후기"
+      }
+    },
+    "Educations": {
+      "title": "교육",
+      "KoreaUniv": {
+        "title": "고려대학교",
+        "status": "3학년 재학 중",
+        "major": "정치외교학 전공",
+        "double-major": "통계학과 복수전공"
+      },
+      "42Seoul": {
+        "title": "42서울",
+        "status": "심화과정 진행 중",
+        "common-course": "공통과정 수료 (2023.01)",
+        "article-non-major": "제주도에서 온 비전공 청년의 개발자 도전기"
+      }
+    },
+    "present": "현재",
+    "Footer": {
+      "thank-you": "감사합니다.",
+      "built-with": "Next.js 13과 CSS Modules로 작성하여 Vercel로 배포함."
+    }
+  }
+}
