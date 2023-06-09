@@ -17,13 +17,13 @@ export default function Home() {
           </h1>
           <h2>{t('job')}</h2>
           <div>
-            {locale === 'en' && <span>A Developer&nbsp;</span>}
+            {locale === 'en' && <span>A developer&nbsp;</span>}
             <Typed
               strings={[
+                'modifiers.one-percent',
+                'modifiers.ui-ux-stat',
+                'modifiers.readable-code',
                 'modifiers.information-society',
-                'modifiers.creative-thinking',
-                'modifiers.neat-things',
-                'modifiers.dont-fall',
                 'modifiers.immerse',
               ].map((key) => t(key))}
             />

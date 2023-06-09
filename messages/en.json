@@ -4,16 +4,16 @@
     "job": "Frontend Developer",
     "phone": "+82 10-2533-6357",
     "modifiers": {
-      "information-society": "thankful for being born into the Information Society",
-      "creative-thinking": "especially enthusiastic to creative thinking",
-      "neat-things": "who likes neat things",
-      "dont-fall": "who doesn't fall for the same type twice",
-      "immerse": "who is immersed most of the time"
+      "one-percent": "growing 1% every day",
+      "ui-ux-stat": "interested in UI/UX and statistics",
+      "readable-code": "who aims for readable code",
+      "information-society": "appreciates being born into the information society",
+      "immerse": "who's been immersed most of the time"
     },
     "About": {
       "title": "About",
-      "p1": "Even when I went to a foreign language high school, I always liked to deal with computers to the extent that I read 『The Essence of Language C』 as a hobby, but I had to come to college to think that I could make a developer a job. The moment I entered the Linux command in 42 Seoul, where I just went to play, I felt relieved that I found something I could like for the rest of my life.",
-      "p2": "I spend most of my time coding, but I often play the piano when I'm bored. I enjoy reading books on philosophy, international politics, and futurology. Since it is an information society, I want to faithfully understand what is happening and enjoy the new technology."
+      "p1": "It was not easy to decide to become a developer while majoring in international politics. However, when I entered the Linux command in 42 Seoul by chance, I was convinced that development should be a job, not a hobby.",
+      "p2": "I spend most of my time coding, but I often play the piano as a hobby. I enjoy reading books on philosophy, international politics, and futurology, and I am interested in what happens in the information society."
     },
     "Projects": {
       "title": "Projects",
@@ -25,7 +25,7 @@
       },
       "CerebriClass": {
         "title": "Cerebri Class",
-        "description": "A service that creates a Word study paper by generating a problem when you enter an English word",
+        "description": "A service that creates a Word study paper by generating a problem when you enter English words",
         "team-composition": "Solo",
         "startup-mvp": "Developed simply by receiving an MVP production request from a startup"
       },
@@ -49,14 +49,14 @@
       "KoreaUniv": {
         "title": "Korea University",
         "status": "Junior",
-        "major": "Major in Political Science",
+        "major": "Major in Political Science & International Relations",
         "double-major": "Double Major in Statistics"
       },
       "42Seoul": {
         "title": "42 Seoul",
         "status": "Advanced course",
         "common-course": "Completion of the common course (2023.01)",
-        "article-non-major": "Dream of becoming a developer, not a CS major"
+        "article-non-major": "Interview about decision to become a developer"
       }
     },
     "present": "Present",
