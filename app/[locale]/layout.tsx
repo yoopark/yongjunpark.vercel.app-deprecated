@@ -6,8 +6,8 @@ import '../globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Yongjun Park',
-  description: '개발자 박용준의 포트폴리오',
+  title: '박용준 포트폴리오',
+  description: '프론트엔드 개발자 박용준의 포트폴리오',
 };
 
 type LocalLayoutProps = {
@@ -27,6 +27,7 @@ export default function LocaleLayout({ children, params }: LocalLayoutProps) {
 
   return (
     <html lang={locale}>
+      <head>{locale !== 'ko' && <title>Yongjun Park</title>}</head>
       <body className={inter.className}>{children}</body>
     </html>
   );
