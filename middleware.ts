@@ -6,6 +6,9 @@ export default createMiddleware({
 
   // If this locale is matched, pathnames work without a prefix (e.g. `/about`)
   defaultLocale: 'ko',
+
+  // 영어 친화적인 사람이라도 한국어 먼저 보여주고 싶음.
+  localeDetection: false,
 });
 
 export const config = {
