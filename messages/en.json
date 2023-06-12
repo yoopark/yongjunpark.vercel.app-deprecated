@@ -12,11 +12,11 @@
     },
     "About": {
       "title": "About",
-      "p1": "It was not easy to decide to become a developer while majoring in international politics. However, when I entered the Linux command in 42 Seoul by chance, I was convinced that development should be a job, not a hobby.",
-      "p2": "I spend most of my time coding, but I often play the piano as a hobby. I enjoy reading books on philosophy, international politics, and futurology, and I am interested in what happens in the information society."
+      "p1": "Used to enjoy computer science fields like reading [Standard of C Language] since highschool, but I started to consider CS developer as a job at the college. The start was just for fun. but when I typed the linux prompt at '42 Seoul', I felt alive and realized that I had just found lifetime work which is worth putting my everything into.",
+      "p2": "Usually spend my time on Coding, but playing piano sometimes. Often read books about philosophy, International Politics, and Futurology. Interested in understanding aspects of the information society."
     },
     "Projects": {
-      "title": "Projects",
+      "title": "Project",
       "42Stat": {
         "title": "42Stat",
         "description": "Dashboard-type web service that shows statistics of 42 Seoul trainees",
@@ -45,7 +45,7 @@
       }
     },
     "Educations": {
-      "title": "Educations",
+      "title": "Education",
       "KoreaUniv": {
         "title": "Korea University",
         "status": "Junior",
@@ -61,7 +61,7 @@
     },
     "present": "Present",
     "Footer": {
-      "thank-you": "Thank you.",
+      "thank-you": "Ready for flight.",
       "built-with": "Built with Next.js 13 and CSS Modules, deployed with Vercel."
     }
   }
