@@ -20,25 +20,21 @@
       "42Stat": {
         "title": "42Stat",
         "description": "Dashboard-type web service that shows statistics of 42 Seoul trainees",
-        "team-composition": "4 ppl",
         "role": "Frontend"
       },
       "CerebriClass": {
         "title": "Cerebri Class",
         "description": "A service that creates a Word study paper by generating a problem when you enter English words",
-        "team-composition": "Solo",
         "startup-mvp": "Developed simply by receiving an MVP production request from a startup"
       },
       "LastPong": {
         "title": "LastPong",
         "description": "SPA web service with Pong game, chat, and DM using socket.io",
-        "team-composition": "4 ppl",
         "role": "Fronend"
       },
       "Miliroutine": {
         "title": "Miliroutine",
         "description": "Routine participation and recommendation web services considering the characteristics of soldiers",
-        "team-composition": "5 ppl",
         "role": "Team Leader",
         "awards-winner": "2022 OSAM Military Hackathon Air Force Chief of Staff Award Winner",
         "article-review": "2022 OSAM Military Hackathon Review"

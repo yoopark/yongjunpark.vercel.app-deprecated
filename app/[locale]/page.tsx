@@ -1,6 +1,7 @@
 import { useLocale, useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { GithubLink } from '../components/GithubLink';
+import { TeamLabel } from '../components/TeamLabel';
 import { Typed } from '../components/Typed';
 import styles from './page.module.css';
 
@@ -85,8 +86,8 @@ export default function Home() {
               <div className={styles.project__main}>
                 <div className={styles.project__title}>
                   <h3>{t('Projects.42Stat.title')}</h3>
-                  <p>
-                    {t('Projects.42Stat.team-composition')}&nbsp;·&nbsp;
+                  <p className={styles.project__info}>
+                    <TeamLabel count={4} />
                     {t('Projects.42Stat.role')}
                   </p>
                   <GithubLink to="https://github.com/42Statistics/42Stat-Frontend" />
@@ -108,7 +109,7 @@ export default function Home() {
               <div className={styles.project__main}>
                 <div className={styles.project__title}>
                   <h3>{t('Projects.CerebriClass.title')}</h3>
-                  <p>{t('Projects.CerebriClass.team-composition')}</p>
+                  <TeamLabel count={1} />
                   <GithubLink to="https://github.com/storyboard-lab/cerebri-class" />
                 </div>
                 <p className={styles.project__highlight}>
@@ -133,8 +134,8 @@ export default function Home() {
               <div className={styles.project__main}>
                 <div className={styles.project__title}>
                   <h3>{t('Projects.LastPong.title')}</h3>
-                  <p>
-                    {t('Projects.LastPong.team-composition')}&nbsp;·&nbsp;
+                  <p className={styles.project__info}>
+                    <TeamLabel count={4} />
                     {t('Projects.LastPong.role')}
                   </p>
                   <GithubLink to="https://github.com/lev-Zero/lastpong" />
@@ -157,8 +158,8 @@ export default function Home() {
               <div className={styles.project__main}>
                 <div className={styles.project__title}>
                   <h3>{t('Projects.Miliroutine.title')}</h3>
-                  <p>
-                    {t('Projects.Miliroutine.team-composition')}&nbsp;·&nbsp;
+                  <p className={styles.project__info}>
+                    <TeamLabel count={5} />
                     {t('Projects.Miliroutine.role')}
                   </p>
                   <GithubLink to="https://github.com/osamhack2022-v2/WEB_AI_MILIROUTINE_MILIROUTINE" />

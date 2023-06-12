@@ -20,25 +20,21 @@
       "42Stat": {
         "title": "42Stat",
         "description": "42서울 교육생의 통계를 보여주는 대시보드형 웹서비스",
-        "team-composition": "4인 팀",
         "role": "프론트엔드 개발"
       },
       "CerebriClass": {
         "title": "Cerebri Class",
         "description": "영단어를 입력하면 문제를 생성하여 Word 학습지를 제작해주는 서비스",
-        "team-composition": "1인 개발",
         "startup-mvp": "스타트업으로부터 MVP 제작 의뢰를 받아 간단히 개발"
       },
       "LastPong": {
         "title": "LastPong",
         "description": "Socket.io를 이용하여 게임, 채팅, DM을 구현한 SPA 웹서비스",
-        "team-composition": "4인 팀",
         "role": "프론트엔드 개발"
       },
       "Miliroutine": {
         "title": "밀리루틴",
         "description": "군인의 특성을 고려한 루틴 참여 및 추천 웹서비스",
-        "team-composition": "5인 팀",
         "role": "팀장",
         "awards-winner": "2022 OSAM 군장병 해커톤 공군참모총장상 수상",
         "article-review": "2022 OSAM 군장병 해커톤 후기"

@@ -171,6 +171,11 @@
   }
 }
 
+.project__info {
+  display: flex;
+  gap: 1rem;
+}
+
 .project h3,
 .education h3 {
   font-size: 1.5rem;
