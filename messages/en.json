@@ -4,11 +4,11 @@
     "job": "Frontend Developer",
     "phone": "+82 10-2533-6357",
     "modifiers": {
-      "one-percent": "growing 1% every day",
-      "ui-ux-stat": "interested in UI/UX and statistics",
+      "one-percent": "step-up day by day",
+      "ui-ux-stat": "interested in UI/UX & Statistics",
       "readable-code": "who aims for readable code",
-      "information-society": "appreciates being born into the information society",
-      "immerse": "who's been immersed most of the time"
+      "information-society": "who appreciates being born into the information society",
+      "immerse": "who's been immersed almost always"
     },
     "About": {
       "title": "About",
@@ -24,20 +24,20 @@
       },
       "CerebriClass": {
         "title": "Cerebri Class",
-        "description": "A service that creates a Word study paper by generating a problem when you enter English words",
-        "startup-mvp": "Developed simply by receiving an MVP production request from a startup"
+        "description": "A service that generates vocabulary workbooks by simply typing English words",
+        "startup-mvp": "Requested from startup, Developed prototype version of the servicep"
       },
       "LastPong": {
         "title": "LastPong",
-        "description": "SPA web service with Pong game, chat, and DM using socket.io",
-        "role": "Fronend"
+        "description": "SPA web service with pong game, chat, and DM based on Socket.io",
+        "role": "Frontend"
       },
       "Miliroutine": {
         "title": "Miliroutine",
-        "description": "Routine participation and recommendation web services considering the characteristics of soldiers",
+        "description": "Routine participation and recommendation web services based on the characteristics of active-duty soldier",
         "role": "Team Leader",
-        "awards-winner": "2022 OSAM Military Hackathon Air Force Chief of Staff Award Winner",
-        "article-review": "2022 OSAM Military Hackathon Review"
+        "awards-winner": "Awarded 2022 OSAM Military Hackathon Air Force Chief of Staff",
+        "article-review": "Review: 2022 OSAM Military Hackathon"
       }
     },
     "Educations": {
@@ -52,7 +52,7 @@
         "title": "42 Seoul",
         "status": "Advanced course",
         "common-course": "Completion of the common course (2023.01)",
-        "article-non-major": "Interview about decision to become a developer"
+        "article-non-major": "Interview: Decision to become a developer"
       }
     },
     "present": "Present",
