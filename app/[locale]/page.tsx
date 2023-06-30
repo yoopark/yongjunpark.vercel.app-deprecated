@@ -86,10 +86,10 @@ export default function Home() {
               <div className={styles.project__main}>
                 <div className={styles.project__title}>
                   <h3>{t('Projects.42Stat.title')}</h3>
-                  <p className={styles.project__info}>
+                  <div className={styles.project__info}>
                     <TeamLabel count={4} />
-                    {t('Projects.42Stat.role')}
-                  </p>
+                    <p>{t('Projects.42Stat.role')}</p>
+                  </div>
                   <GithubLink to="https://github.com/42Statistics/42Stat-Frontend" />
                 </div>
                 <p className={styles.project__highlight}>
@@ -134,10 +134,10 @@ export default function Home() {
               <div className={styles.project__main}>
                 <div className={styles.project__title}>
                   <h3>{t('Projects.LastPong.title')}</h3>
-                  <p className={styles.project__info}>
+                  <div className={styles.project__info}>
                     <TeamLabel count={4} />
-                    {t('Projects.LastPong.role')}
-                  </p>
+                    <p>{t('Projects.LastPong.role')}</p>
+                  </div>
                   <GithubLink to="https://github.com/lev-Zero/lastpong" />
                 </div>
                 <p className={styles.project__highlight}>
@@ -158,10 +158,10 @@ export default function Home() {
               <div className={styles.project__main}>
                 <div className={styles.project__title}>
                   <h3>{t('Projects.Miliroutine.title')}</h3>
-                  <p className={styles.project__info}>
+                  <div className={styles.project__info}>
                     <TeamLabel count={5} />
-                    {t('Projects.Miliroutine.role')}
-                  </p>
+                    <p>{t('Projects.Miliroutine.role')}</p>
+                  </div>
                   <GithubLink to="https://github.com/osamhack2022-v2/WEB_AI_MILIROUTINE_MILIROUTINE" />
                 </div>
                 <p className={styles.project__highlight}>
