@@ -71,7 +71,11 @@
 .header nav ul {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
+}
+
+.header nav ul li:hover {
+  color: rgb(var(--accent-rgb));
 }
 
 .social {
@@ -98,12 +102,17 @@
   text-decoration: underline;
 }
 
-#about,
-#projects,
-#educations {
+.about,
+.projects,
+.educations {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
+  @media (min-width: 1024px) {
+    padding-top: 7rem; /* anchor offset */
+    margin-top: -7rem;
+  }
 }
 
 .about__container {
@@ -112,9 +121,9 @@
   gap: 1rem;
 }
 
-#about h2,
-#projects h2,
-#educations h2 {
+.about h2,
+.projects h2,
+.educations h2 {
   display: block;
   color: rgb(var(--accent-rgb));
   font-size: 1.2rem;

@@ -36,9 +36,15 @@ export default function Home() {
           </div>
           <nav>
             <ul>
-              <li>{t('About.title')}</li>
-              <li>{t('Projects.title')}</li>
-              <li>{t('Educations.title')}</li>
+              <li>
+                <a href="#about">{t('About.title')}</a>
+              </li>
+              <li>
+                <a href="#project">{t('Projects.title')}</a>
+              </li>
+              <li>
+                <a href="#education">{t('Educations.title')}</a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -69,14 +75,14 @@ export default function Home() {
         </div>
       </header>
       <main className={styles.main}>
-        <section id={styles.about}>
+        <section className={styles.about} id="about">
           <h2>{t('About.title')}</h2>
           <div className={styles.about__container}>
             <p>{t('About.p1')}</p>
             <p>{t('About.p2')}</p>
           </div>
         </section>
-        <section id={styles.projects}>
+        <section className={styles.projects} id="project">
           <h2>{t('Projects.title')}</h2>
           <div className={styles.projects__container}>
             <div className={styles.project}>
@@ -189,7 +195,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id={styles.educations}>
+        <section className={styles.educations} id="education">
           <h2>{t('Educations.title')}</h2>
           <div className={styles.educations__container}>
             <div className={styles.education}>
