@@ -89,8 +89,8 @@ export default function Home() {
                   <div className={styles.project__info}>
                     <TeamLabel count={4} />
                     <p>{t('Projects.42Stat.role')}</p>
+                    <GithubLink to="https://github.com/42Statistics/42Stat-Frontend" />
                   </div>
-                  <GithubLink to="https://github.com/42Statistics/42Stat-Frontend" />
                 </div>
                 <p className={styles.project__highlight}>
                   {t('Projects.42Stat.description')}
@@ -109,8 +109,10 @@ export default function Home() {
               <div className={styles.project__main}>
                 <div className={styles.project__title}>
                   <h3>{t('Projects.CerebriClass.title')}</h3>
-                  <TeamLabel count={1} />
-                  <GithubLink to="https://github.com/storyboard-lab/cerebri-class" />
+                  <div className={styles.project__info}>
+                    <TeamLabel count={1} />
+                    <GithubLink to="https://github.com/storyboard-lab/cerebri-class" />
+                  </div>
                 </div>
                 <p className={styles.project__highlight}>
                   {t('Projects.CerebriClass.description')}
@@ -137,8 +139,8 @@ export default function Home() {
                   <div className={styles.project__info}>
                     <TeamLabel count={4} />
                     <p>{t('Projects.LastPong.role')}</p>
+                    <GithubLink to="https://github.com/lev-Zero/lastpong" />
                   </div>
-                  <GithubLink to="https://github.com/lev-Zero/lastpong" />
                 </div>
                 <p className={styles.project__highlight}>
                   {t('Projects.LastPong.description')}
@@ -161,8 +163,8 @@ export default function Home() {
                   <div className={styles.project__info}>
                     <TeamLabel count={5} />
                     <p>{t('Projects.Miliroutine.role')}</p>
+                    <GithubLink to="https://github.com/osamhack2022-v2/WEB_AI_MILIROUTINE_MILIROUTINE" />
                   </div>
-                  <GithubLink to="https://github.com/osamhack2022-v2/WEB_AI_MILIROUTINE_MILIROUTINE" />
                 </div>
                 <p className={styles.project__highlight}>
                   {t('Projects.Miliroutine.description')}
